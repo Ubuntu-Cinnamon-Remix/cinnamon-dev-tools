@@ -111,7 +111,7 @@ class Main:
             self.type = PO_EXT
 
         self.builder = Gtk.Builder()
-        self.builder.add_from_file("/usr/share/mint-dev-tools/mint-check-translations.glade")
+        self.builder.add_from_file("/usr/share/cinnamon-dev-tools/cinnamon-check-translations.glade")
         self.treebox = self.builder.get_object("treebox")
         self.window = self.builder.get_object("window")
         self.progressbar = self.builder.get_object("progressbar1")

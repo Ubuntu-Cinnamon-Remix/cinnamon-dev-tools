@@ -71,7 +71,7 @@ def to_megabytes(num_bytes):
 
 if __name__ == '__main__':
 
-    settings = Gio.Settings("com.linuxmint.dev")
+    settings = Gio.Settings("org.cinnamon.dev")
     interval = settings.get_int("cinnamon-stats-tracker-interval")
     measures = settings.get_int("cinnamon-stats-tracker-measures")
 

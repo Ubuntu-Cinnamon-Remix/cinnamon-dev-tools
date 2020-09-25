@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema id="com.linuxmint.dev" path="/com/linuxmint/dev/">
+  <schema id="org.cinnamon.dev" path="/org/cinnamon/dev/">
     <key type="b" name="cinnamon-stats-tracker-enabled">
       <default>false</default>
       <summary></summary>

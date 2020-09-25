@@ -12,13 +12,13 @@ class Settings():
     def __init__(self):
 
         builder = Gtk.Builder()
-        builder.add_from_file("/usr/share/mint-dev-tools/mint-dev-settings.ui")
+        builder.add_from_file("/usr/share/cinnamon-dev-tools/cinnamon-dev-settings.ui")
 
         self.window = builder.get_object("main_window")
         self.window.connect("destroy", Gtk.main_quit)
-        self.window.set_title("Mint Development Settings")
+        self.window.set_title("Cinnamon Development Settings")
 
-        self.settings = Gio.Settings("com.linuxmint.dev")
+        self.settings = Gio.Settings("org.cinnamon.dev")
 
         toggle = builder.get_object("cinnamon_stats_tracker_toggle")
         toggle.set_active(self.settings.get_boolean(STATS_TRACKER_ENABLED_KEY))

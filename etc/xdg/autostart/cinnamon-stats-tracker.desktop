@@ -8,5 +8,5 @@ Terminal=false
 Type=Application
 Categories=
 X-GNOME-Autostart-Delay=20
-AutostartCondition=GSettings com.linuxmint.dev cinnamon-stats-tracker-enabled
+AutostartCondition=GSettings org.cinnamon.dev cinnamon-stats-tracker-enabled
 OnlyShowIn=GNOME;
