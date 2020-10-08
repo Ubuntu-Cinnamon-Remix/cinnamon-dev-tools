@@ -1,4 +1,7 @@
 # cinnamon-dev-tools
+
+# **ATTENTION: This repository is now controlled by the Ubuntu Cinnamon Remix (Ubuntu-Cinnamon-Remix/cinnamon-dev-tools), go there for updates and future releases.**
+
 Tools for Cinnamon Developers (Forked from mint-dev-tools)
 
 This is a fork of mint-dev-tools to be used for as many different distributions
